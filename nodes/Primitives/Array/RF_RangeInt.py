@@ -10,7 +10,7 @@ class RF_RangeInt:
         }
 
     DISPLAY_NAME = "Repeat (INT)"
-    CATEGORY = "RF"
+    CATEGORY = "RF/primitives/array"
     
     RETURN_NAMES = ("values",)
     RETURN_TYPES = ("INT",)

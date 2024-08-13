@@ -8,7 +8,7 @@ class RF_TextMergeLines:
         }
 
     DISPLAY_NAME = "Merge lines (STRING)"
-    CATEGORY = "RF"
+    CATEGORY = "RF/text"
 
     # This lets us get inputs as an array so that we can join it
     INPUT_IS_LIST = True

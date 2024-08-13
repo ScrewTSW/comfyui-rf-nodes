@@ -13,7 +13,7 @@ class TextLine:
             },
         }
 
-    CATEGORY = "RF"
+    CATEGORY = "RF/text"
     
     RETURN_TYPES = ("STRING",)
     RETURN_NAMES = ("line",)

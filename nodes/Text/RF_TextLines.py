@@ -8,7 +8,7 @@ class RF_TextLines:
         }
 
     DISPLAY_NAME = "Options (STRING)"
-    CATEGORY = "RF"
+    CATEGORY = "RF/text"
 
     RETURN_NAMES = ("lines",)
     RETURN_TYPES = ("STRING",)

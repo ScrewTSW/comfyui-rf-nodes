@@ -80,7 +80,7 @@ class RF_JsonStyleLoader:
         }
 
     DISPLAY_NAME = "Style from JSON file"
-    CATEGORY = "RF"
+    CATEGORY = "RF/json"
 
     RETURN_TYPES = ("STRING", "STRING")
     RETURN_NAMES = ("positive", "negative")

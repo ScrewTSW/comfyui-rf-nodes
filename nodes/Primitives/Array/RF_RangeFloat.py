@@ -1,19 +1,19 @@
-class RF_RangeNumber:
+class RF_RangeFloat:
     @classmethod
     def INPUT_TYPES(cls):
         return {
             "required": {
-                "start": ("NUMBER", { "default": 0 }),
-                "step": ("NUMBER", { "default": 1 }),
-                "count": ("NUMBER", { "default": 10 }),
+                "start": ("FLOAT", { "default": 0 }),
+                "step": ("FLOAT", { "default": 1 }),
+                "count": ("FLOAT", { "default": 10 }),
              },
         }
 
-    DISPLAY_NAME = "Repeat (NUMBER)"
-    CATEGORY = "RF"
+    DISPLAY_NAME = "Repeat (FLOAT)"
+    CATEGORY = "RF/primitives/array"
 
     RETURN_NAMES = ("values",)
-    RETURN_TYPES = ("NUMBER",)
+    RETURN_TYPES = ("FLOAT",)
     OUTPUT_IS_LIST =(True,)
 
     def VALIDATE_INPUTS(step):

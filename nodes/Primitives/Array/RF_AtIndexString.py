@@ -9,7 +9,7 @@ class RF_AtIndexString:
         }
 
     DISPLAY_NAME = "At index (STRING)"
-    CATEGORY = "RF"
+    CATEGORY = "RF/primitives/array"
 
     # This lets us get inputs as an array so that we can join it
     INPUT_IS_LIST = True

@@ -9,7 +9,7 @@ class RF_OptionsString:
         }
 
     DISPLAY_NAME = "One of (STRING)"
-    CATEGORY = "RF"
+    CATEGORY = "RF/text"
 
     RETURN_NAMES = ("text",)
     RETURN_TYPES = ("STRING",)
