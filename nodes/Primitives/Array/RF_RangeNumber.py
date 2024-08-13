@@ -6,7 +6,7 @@ class RF_RangeNumber:
                 "start": ("NUMBER", { "default": 0 }),
                 "step": ("NUMBER", { "default": 1 }),
                 "count": ("NUMBER", { "default": 10 }),
-             },
+            },
         }
 
     DISPLAY_NAME = "Repeat (NUMBER)"

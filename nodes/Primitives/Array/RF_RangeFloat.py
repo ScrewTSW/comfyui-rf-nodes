@@ -6,7 +6,7 @@ class RF_RangeFloat:
                 "start": ("FLOAT", { "default": 0 }),
                 "step": ("FLOAT", { "default": 1 }),
                 "count": ("FLOAT", { "default": 10 }),
-             },
+            },
         }
 
     DISPLAY_NAME = "Repeat (FLOAT)"

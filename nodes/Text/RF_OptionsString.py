@@ -5,7 +5,7 @@ class RF_OptionsString:
             "required": {
                 "index": ("INT", { "default": 0 }),
                 "text": ("STRING", { "default": "", "multiline": True }),
-             }
+            },
         }
 
     DISPLAY_NAME = "One of (STRING)"

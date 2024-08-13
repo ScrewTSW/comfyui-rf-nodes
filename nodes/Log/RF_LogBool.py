@@ -28,4 +28,3 @@ class RF_LogBool:
     def NodeProcess(self, value, prefix):
         LogToConsole(value, prefix)
         return (value,)
-

@@ -4,7 +4,7 @@ class RF_TextMergeLines:
         return {
             "required": {
                 "text": ("STRING", { "default": "", "multiline": True }),
-             }
+            },
         }
 
     DISPLAY_NAME = "Merge lines (STRING)"

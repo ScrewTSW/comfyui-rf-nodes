@@ -25,4 +25,3 @@ class RF_FloatPrimitive:
     FUNCTION = "NodeProcess"
     def NodeProcess(self, value):
         return (value,)
-

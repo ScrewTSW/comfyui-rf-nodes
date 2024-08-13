@@ -31,4 +31,3 @@ class RF_ToString:
         else:
             result = str(value)
         return (result,)
-

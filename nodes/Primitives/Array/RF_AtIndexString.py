@@ -5,7 +5,7 @@ class RF_AtIndexString:
             "required": {
                 "lines": ("STRING", { "default": "", "multiline": True }),
                 "index": ("INT", { "default": 0 }),
-             }
+            },
         }
 
     DISPLAY_NAME = "At index (STRING)"
