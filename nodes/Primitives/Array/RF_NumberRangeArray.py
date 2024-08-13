@@ -1,19 +1,19 @@
-class RF_RangeInt:
-
-    def INPUT_TYPES():
+class RF_NumberRangeArray:
+    @classmethod
+    def INPUT_TYPES(cls):
         return {
             "required": {
-                "start": ("INT", { "default": 0 }),
-                "step": ("INT", { "default": 1 }),
-                "count": ("INT", { "default": 10 }),
+                "start": ("NUMBER", { "default": 0 }),
+                "step": ("NUMBER", { "default": 1 }),
+                "count": ("NUMBER", { "default": 10 }),
             },
         }
 
-    DISPLAY_NAME = "Repeat (INT)"
+    DISPLAY_NAME = "Repeat (NUMBER)"
     CATEGORY = "RF/primitives/array"
 
     RETURN_NAMES = ("values",)
-    RETURN_TYPES = ("INT",)
+    RETURN_TYPES = ("NUMBER",)
     OUTPUT_IS_LIST =(True,)
 
     def VALIDATE_INPUTS(step):

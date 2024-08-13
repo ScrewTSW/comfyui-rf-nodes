@@ -29,9 +29,10 @@ from .nodes.Json.RF_JsonStyleLoader import RF_JsonStyleLoader
 from .nodes.File.RF_SavePromptInfo import RF_SavePromptInfo
 
 from .nodes.Primitives.RF_FloatPrimitive import RF_FloatPrimitive
-from .nodes.Primitives.Array.RF_RangeInt import RF_RangeInt
-from .nodes.Primitives.Array.RF_RangeFloat import RF_RangeFloat
-from .nodes.Primitives.Array.RF_RangeNumber import RF_RangeNumber
+from .nodes.Primitives.RF_FloatRangePrimitive import RF_FloatRangePrimitive
+from .nodes.Primitives.Array.RF_IntRangeArray import RF_IntRangeArray
+from .nodes.Primitives.Array.RF_FloatRangeArray import RF_FloatRangeArray
+from .nodes.Primitives.Array.RF_NumberRangeArray import RF_NumberRangeArray
 from .nodes.Primitives.Array.RF_AtIndexString import RF_AtIndexString
 
 # A dictionary that contains all nodes you want to export with their names
@@ -60,9 +61,10 @@ NODE_CLASS_MAPPINGS = {
 
     # primitives
     "RF_FloatPrimitive": RF_FloatPrimitive,
-    "RF_RangeInt": RF_RangeInt,
-    "RF_RangeFloat": RF_RangeFloat,
-    "RF_RangeNumber": RF_RangeNumber,
+    "RF_FloatRangePrimitive": RF_FloatRangePrimitive,
+    "RF_RangeInt": RF_IntRangeArray,
+    "RF_RangeFloat": RF_FloatRangeArray,
+    "RF_RangeNumber": RF_NumberRangeArray,
     "RF_AtIndexString": RF_AtIndexString,
 
     # Log
