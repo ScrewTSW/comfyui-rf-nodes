@@ -1,4 +1,4 @@
-class RF_RangeFloat:
+class RF_FloatRangeArray:
     @classmethod
     def INPUT_TYPES(cls):
         return {
