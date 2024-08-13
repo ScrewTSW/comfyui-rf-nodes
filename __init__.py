@@ -27,6 +27,7 @@ from .nodes.Log.RF_LogInt import RF_LogInt
 
 from .nodes.Json.RF_JsonStyleLoader import RF_JsonStyleLoader
 from .nodes.File.RF_SavePromptInfo import RF_SavePromptInfo
+from .nodes.File.RF_StandardResolutions import RF_StandardResolutions
 
 from .nodes.Primitives.RF_FloatPrimitive import RF_FloatPrimitive
 from .nodes.Primitives.Array.RF_RangeInt import RF_RangeInt
@@ -78,7 +79,10 @@ NODE_CLASS_MAPPINGS = {
     "RF_JsonStyleLoader": RF_JsonStyleLoader,
 
     # File
-    "RF_SavePromptInfo": RF_SavePromptInfo
+    "RF_SavePromptInfo": RF_SavePromptInfo,
+
+    # Standard Resolutions
+    "RF_StandardResolutions": RF_StandardResolutions
 }
 
 # This magic will use a property DISPLAY_NAME on each node to get the display name of the node for the UI
