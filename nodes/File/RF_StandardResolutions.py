@@ -12,8 +12,8 @@ class RF_StandardResolutions:
                         "Standard 1:1 (1448x1448)",
                         "Widescreen 4:3 (1152x896)",
                         "Widescreen 4:3 (1664x1216)",
-                        "Portrait 3:2 (944x640)",
-                        "Portrait 3:2 (1056x720)",
+                        "Widescreen 3:2 (944x640)",
+                        "Widescreen 3:2 (1056x720)",
                         "Widescreen 3:2 (1216x832)",
                         "Widescreen 3:2 (1728x1152)",
                         "Widescreen 4:5 (1280x1024)",
@@ -79,9 +79,9 @@ class RF_StandardResolutions:
                 return (1152, 896)
             case "Widescreen 4:3 (1664x1216)":
                 return (1664, 1216)
-            case "Portrait 3:2 (944x640)":
+            case "Widescreen 3:2 (944x640)":
                 return (944, 640)
-            case "Portrait 3:2 (1056x720)":
+            case "Widescreen 3:2 (1056x720)":
                 return (1056, 720)
             case "Widescreen 3:2 (1216x832)":
                 return (1216, 832)
